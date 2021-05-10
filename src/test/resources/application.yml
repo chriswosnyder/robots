@@ -1,0 +1,17 @@
+
+
+EVENT_LIMIT: 100
+
+server:
+  port: 8080
+  ## Logging settings
+logging:
+  file:
+    name: "eventSystem.log"
+    path: "./"
+  level:
+    root: INFO
+    org:
+      springframework:
+        transaction:
+          interceptor: TRACE
